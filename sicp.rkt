@@ -1,4 +1,5 @@
-#lang sicp
+#lang simply-scheme
+
 (+ 5 5 )
 (+ (* 3 ;; 3 * (8+8) = 48
       (+ (* 2 4)
@@ -15,9 +16,3 @@ lol ;; 5
       2)
 
 
-(define (square x) (* x x)) ;; procedure definition
-(square 5) ;; multiply 5 (x) by itself
-
-;; procedure definition structure
-;; (define (<name>) <formal parameters>)
-;;   <body>)
